@@ -1,7 +1,6 @@
-import * as THREE from 'https://unpkg.com/three@0.152.2/build/three.module.js';
-import * as CANNON from 'https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js';
-import { OBJLoader } from 'https://unpkg.com/three@0.152.2/examples/jsm/loaders/OBJLoader.js';
-import { MTLLoader } from 'https://unpkg.com/three@0.152.2/examples/jsm/loaders/MTLLoader.js';
+import * as THREE from 'three';
+import * as CANNON from 'cannon';
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 
 // Scene setup
 const scene = new THREE.Scene();
