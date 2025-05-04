@@ -1,0 +1,18 @@
+{
+  "name": "gorilla-fight-simulation",
+  "version": "1.0.0",
+  "description": "3D simulation of 100 men fighting one gorilla",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "cannon-es": "^0.20.0",
+    "ammo.js": "^0.0.10"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+} 
